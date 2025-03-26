@@ -28,7 +28,7 @@ export default function BiographyCard({ article }) {
           alt={article.title || "No Title Available"}
           width={600}
           height={400}
-          className="w-full h-[650px] md:h-[300px] object-cover transition-transform duration-300 group-hover:scale-105"
+          className="w-full h-[650px] md:h-[300px] object-cover transition-transform duration-300 group-hover:scale-105 z-0"
         />
 
         {/* News Details */}

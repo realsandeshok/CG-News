@@ -56,7 +56,7 @@ export default function Navbar() {
           </Link>
         </nav> */}
         <div>
-          <h1 className="font-bold text-xl">World News</h1>
+          <h1 className="font-bold text-xl">naradpost.in</h1>
         </div>
       </div>
       <div className="flex items-center gap-4 ml-4 flex-shrink-0">

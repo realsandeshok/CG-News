@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "World News - Latest Headlines and Breaking News",
+  title: "naradpost.in - Latest Headlines and Breaking News",
   description: "Discover the latest news from around the world",
     generator: 'v0.dev'
 }

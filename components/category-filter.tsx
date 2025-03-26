@@ -35,8 +35,8 @@ export default function CategoryFilter({ onCategoryChange }) {
   }
 
   return (
-    <div className="overflow-x-auto pb-2 relative z-20">
-      <div className="flex gap-2 my-6 min-w-max px-1">
+    <div className="overflow-x-auto pb-2 relative z-20 ">
+      <div className="flex gap-2 my-6 min-w-max px-1 justify-center">
         {categories.map((category) => (
           <button
             key={category.id}

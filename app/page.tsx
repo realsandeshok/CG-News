@@ -118,7 +118,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-4 text-center">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
-          Explore World News
+          Explore naradpost.in
         </h1>
         <p className="text-muted-foreground mb-8">
           Discover the latest news from around the world
@@ -139,11 +139,11 @@ export default function Home() {
         </form> */}
 
         {/* Categories */}
+          <CategoryFilter onCategoryChange={handleCategoryChange} />
       </section>
       <div>
-        <div className="sticky top-0 bg-background z-10 shadow-md">
-          <CategoryFilter onCategoryChange={handleCategoryChange} />
-        </div>
+        {/* <div className="sticky top-0 bg-background z-10 shadow-md">
+        </div> */}
         {/* News Grid */}
         <section className="container mx-auto px-4 pb-16 pt-4">
           {isLoading ? (
